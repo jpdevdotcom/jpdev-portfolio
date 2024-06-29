@@ -11,7 +11,7 @@ const projectsData = [
         title: "UEP Warehouse Management and Inventory System",
         description:
             "UEP WMIS is my capstone project wherein I single-handedly created the whole system. From the creation of WEB API using WEB API .NET Core into its frontend using Blazor Server.",
-        image: "/images/projects/1.jpg",
+        image: "/images/projects/uep-wmis.jpg",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/jpdevdotcom/UEP-Warehouse-Management-and-Inventory-System",
         previewUrl: "/",
@@ -45,7 +45,7 @@ const projectsData = [
         title: "UEP WMIS - API",
         description:
             "This was the API I created from the scratch for my capstone project. This served as my gateway to access the data of the other capstone group's database.",
-        image: "/images/projects/3.jpeg",
+        image: "/images/projects/wmis-api.jpg",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/jpdevdotcom/wmis-api",
         previewUrl: "/",
@@ -62,7 +62,7 @@ const projectsData = [
         title: "Fish Information System",
         description:
             "FIS (Fish Information System) is a web application designed for my college student clients. It contains a database of various fish species and can classify fish by analyzing uploaded images.",
-        image: "/images/projects/5.jpeg",
+        image: "/images/projects/fish-info.jpg",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/jpdevdotcom/fish-information-system",
         previewUrl: "https://fish-information.netlify.app/",
@@ -97,7 +97,7 @@ const projectsData = [
         title: "Fish Information System - API",
         description:
             "A REST API created for Fish Information System. This API can be accessed anytime by anyone.",
-        image: "/images/projects/6.jpeg",
+        image: "/images/projects/wmis-api.jpg",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/jpdevdotcom/fish-information-api",
         previewUrl:
@@ -115,7 +115,7 @@ const projectsData = [
         title: "UEP ID Production Management System",
         description:
             "A system for managing all the walk-in university students and faculties for submitting a requirements for the creation of their identification cards.",
-        image: "/images/projects/3.jpeg",
+        image: "/images/projects/filler.jpg",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/jpdevdotcom/wmis-api",
         previewUrl: "/",
@@ -132,7 +132,7 @@ const projectsData = [
         title: "JPDictionary",
         description:
             "An open-source dictionary that provides various features of typical dictionary. I used a third-party API to provide the needed requirements upon building this app.",
-        image: "/images/projects/7.jpeg",
+        image: "/images/projects/jpdictionary.jpg",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/jpdevdotcom/jpdictionary",
         previewUrl:
@@ -158,7 +158,7 @@ const projectsData = [
         title: "Payroll Management System",
         description:
             "This was our final project wherein I created a desktop application using C# Windows Forms.",
-        image: "/images/projects/2.jpeg",
+        image: "/images/projects/filler.jpg",
         tag: ["All", "Desktop"],
         gitUrl: "https://github.com/jpdevdotcom/Biometric-Attendance-and-Payroll-Management-System",
         previewUrl: "/",
@@ -174,7 +174,7 @@ const projectsData = [
         title: "Mobile Student Grade View Application",
         description:
             "Created a mobile application exclusively for University of Eastern Philippines (UEP), inteded for viewing students' grades.",
-        image: "/images/projects/4.jpeg",
+        image: "/images/projects/mobile-app.jpg",
         tag: ["All", "Mobile"],
         gitUrl: "https://github.com/jpdevdotcom/mobile-student-grade-view-application",
         previewUrl: "/",
@@ -206,7 +206,7 @@ const ProjectsSection = () => {
     };
 
     return (
-        <section>
+        <section id="projects">
             <div>
                 <h2 className="text-center text-4xl font-bold text-white mt-4 mb-3">
                     My Projects

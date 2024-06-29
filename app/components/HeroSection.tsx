@@ -52,9 +52,12 @@ const HeroSection = () => {
                             Hire Me
                         </button> */}
                         <button className="mr-7 mb-5 lg:mb-0 px-[2px] py-[2px] w-full sm:w-fit rounded-full bg-gradient-to-br from-orange-700 via-orange-500 to-yellow-500 hover:bg-slate-800 text-white">
-                            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-7 py-2">
+                            <Link
+                                href="#contact"
+                                className="block bg-[#121212] hover:bg-slate-800 rounded-full px-7 py-2"
+                            >
                                 Hire Me
-                            </span>
+                            </Link>
                         </button>
 
                         <button>
