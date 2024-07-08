@@ -46,7 +46,7 @@ const projectsData = [
         description:
             "This was the API I created from the scratch for my capstone project. This served as my gateway to access the data of the other capstone group's database.",
         image: "/images/projects/wmis-api.jpg",
-        tag: ["All", "Web"],
+        tag: ["All", "REST API"],
         gitUrl: "https://github.com/jpdevdotcom/wmis-api",
         previewUrl: "/",
         techStack: [
@@ -98,7 +98,7 @@ const projectsData = [
         description:
             "A REST API created for Fish Information System. This API can be accessed anytime by anyone.",
         image: "/images/projects/wmis-api.jpg",
-        tag: ["All", "Web"],
+        tag: ["All", "REST API"],
         gitUrl: "https://github.com/jpdevdotcom/fish-information-api",
         previewUrl:
             "https://fish-information-system-api-production.up.railway.app/",
@@ -117,7 +117,41 @@ const projectsData = [
             "A system for managing all the walk-in university students and faculties for submitting a requirements for the creation of their identification cards.",
         image: "/images/projects/filler.jpg",
         tag: ["All", "Web"],
-        gitUrl: "https://github.com/jpdevdotcom/wmis-api",
+        gitUrl: "https://github.com/jpdevdotcom/UEP-ID-Production-Management-System",
+        previewUrl: "/",
+        techStack: [
+            "/images/tech-stack-logo/html.png",
+            "/images/tech-stack-logo/css.png",
+            "/images/tech-stack-logo/js.png",
+            "/images/tech-stack-logo/csharp.png",
+            "/images/tech-stack-logo/blazor.png",
+            "/images/tech-stack-logo/dotnet.png",
+            "/images/tech-stack-logo/ms-sql.png",
+            "/images/tech-stack-logo/bootstrap.png",
+            "/images/tech-stack-logo/snycfusion.png",
+            "/images/tech-stack-logo/bold-reports.png",
+        ],
+        stackNames: [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "C#",
+            "Blazor Server",
+            "Microsoft .NET",
+            "MS SQL Server",
+            "Bootstrap",
+            "Syncfusion Framework",
+            "Bold Reports",
+        ],
+    },
+    {
+        id: 9,
+        title: "UEP ID Production Management - API",
+        description:
+            "A REST API exclusively for UEP ID Production Management System.",
+        image: "/images/projects/wmis-api.jpg",
+        tag: ["All", "REST API"],
+        gitUrl: "https://github.com/jpdevdotcom/uep-id-production-management-api",
         previewUrl: "/",
         techStack: [
             "/images/tech-stack-logo/csharp.png",
@@ -238,6 +272,11 @@ const ProjectsSection = () => {
                         onClick={handleTagChange}
                         name="Desktop"
                         isSelected={tag === "Desktop"}
+                    />
+                    <ProjectTag
+                        onClick={handleTagChange}
+                        name="REST API"
+                        isSelected={tag === "REST API"}
                     />
                 </div>
 
